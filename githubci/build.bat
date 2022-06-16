@@ -40,5 +40,5 @@ cmake --build build_x64 --config Release
 cmake --install build_x64 --config Release
 
 pushd portable
-cmake -E tar cf ..\installer\obs-multi-rtmp-portable.zip --format=zip .
-popd
+cmake -E tar cf ..\installer\obs-multi-rtmp-paortable.zip --format=zip .
+pop
